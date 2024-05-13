@@ -1,4 +1,4 @@
-package GestionCadenaRestaurantes.PatronesEstructurales.Interface;
+package GestionCadenaRestaurantes.PatronesEstructurales.Composite.Interface;
 
 import java.util.List;
 

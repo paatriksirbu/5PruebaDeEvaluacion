@@ -8,5 +8,7 @@ public interface Subject {
     void detach(Observer observer);
 
     void notifyObservers(Message message);
+
+    void notifyUpdate(Message m);
 }
 
