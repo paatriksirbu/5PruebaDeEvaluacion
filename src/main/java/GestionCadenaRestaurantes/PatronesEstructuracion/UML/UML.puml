@@ -1,0 +1,51 @@
+@startuml
+' Estilo de las clases
+skinparam classAttributeIconSize 0
+
+' Interfaz Restaurant
+interface Restaurant {
+    +prepareTables(): void
+    +serveFood(): void
+}
+
+' Clases concretas que implementan la interfaz Restaurant
+class FastFoodRestaurant {
+    +prepareTables(): void
+    +serveFood(): void
+}
+
+class LuxuryRestaurant {
+    +prepareTables(): void
+    +serveFood(): void
+}
+
+class MexicanRestaurant {
+    +prepareTables(): void
+    +serveFood(): void
+}
+
+' Clase Factory para crear instancias de restaurantes
+class RestaurantFactory {
+    +getRestaurant(type: String): Restaurant
+}
+
+' Clase Singleton para la gestión de restaurantes
+class RestaurantManager {
+    -instance: RestaurantManager
+    -restaurants: List<Restaurant>
+    +getInstance(): RestaurantManager
+    +addRestaurant(restaurant: Restaurant): void
+    +prepareAllTables(): void
+    +serveAllFood(): void
+}
+
+' Relaciones de implementación
+FastFoodRestaurant -up-|> Restaurant
+LuxuryRestaurant -up-|> Restaurant
+MexicanRestaurant -up-|> Restaurant
+
+' Relaciones de uso
+RestaurantManager "1" -right- "*" Restaurant : contains
+RestaurantFactory ..> Restaurant : creates >
+
+@enduml
