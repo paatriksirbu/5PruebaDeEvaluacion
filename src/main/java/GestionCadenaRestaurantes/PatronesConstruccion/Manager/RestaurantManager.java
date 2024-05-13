@@ -1,6 +1,6 @@
-package GestionCadenaRestaurantes.PatronesEstructuracion.Manager;
+package GestionCadenaRestaurantes.PatronesConstruccion.Manager;
 
-import GestionCadenaRestaurantes.PatronesEstructuracion.Interface.Restaurant;
+import GestionCadenaRestaurantes.PatronesConstruccion.Interface.Restaurant;
 
 import java.util.ArrayList;
 import java.util.List;

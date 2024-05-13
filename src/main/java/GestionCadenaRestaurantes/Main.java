@@ -1,7 +1,7 @@
 package GestionCadenaRestaurantes;
 
-import GestionCadenaRestaurantes.PatronesEstructuracion.Manager.RestaurantManager;
-import GestionCadenaRestaurantes.PatronesEstructuracion.RestaurantTypes.*;
+import GestionCadenaRestaurantes.PatronesConstruccion.Manager.RestaurantManager;
+import GestionCadenaRestaurantes.PatronesConstruccion.RestaurantTypes.*;
 
 public class Main {
     public static void main(String[] args) {

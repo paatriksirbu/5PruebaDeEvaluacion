@@ -1,6 +1,6 @@
-package GestionCadenaRestaurantes.PatronesEstructuracion.RestaurantTypes;
+package GestionCadenaRestaurantes.PatronesConstruccion.RestaurantTypes;
 
-import GestionCadenaRestaurantes.PatronesEstructuracion.Interface.Restaurant;
+import GestionCadenaRestaurantes.PatronesConstruccion.Interface.Restaurant;
 
 public class MexicanRestaurant implements Restaurant {
     @Override
