@@ -1,6 +1,8 @@
-package GestionCadenaRestaurantes.PatronesEstructuracion;
+package GestionCadenaRestaurantes.PatronesEstructuracion.RestaurantTypes;
 
-public class LuxuryRestaurant implements Restaurant{
+import GestionCadenaRestaurantes.PatronesEstructuracion.Restaurant;
+
+public class LuxuryRestaurant implements Restaurant {
     @Override
     public void prepareTables() {
         System.out.println("Preparing tables for luxury restaurant");

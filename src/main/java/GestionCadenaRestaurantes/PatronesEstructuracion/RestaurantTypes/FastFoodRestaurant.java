@@ -1,6 +1,8 @@
-package GestionCadenaRestaurantes.PatronesEstructuracion;
+package GestionCadenaRestaurantes.PatronesEstructuracion.RestaurantTypes;
 
-public class FastFoodRestaurant implements Restaurant{
+import GestionCadenaRestaurantes.PatronesEstructuracion.Restaurant;
+
+public class FastFoodRestaurant implements Restaurant {
     @Override
     public void prepareTables() {
         System.out.println("Preparing tables for fast food restaurant");

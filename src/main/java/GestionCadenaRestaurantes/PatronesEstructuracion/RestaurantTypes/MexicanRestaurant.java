@@ -1,6 +1,8 @@
-package GestionCadenaRestaurantes.PatronesEstructuracion;
+package GestionCadenaRestaurantes.PatronesEstructuracion.RestaurantTypes;
 
-public class MexicanRestaurant implements Restaurant{
+import GestionCadenaRestaurantes.PatronesEstructuracion.Restaurant;
+
+public class MexicanRestaurant implements Restaurant {
     @Override
     public void prepareTables() {
         System.out.println("Preparing tables for mexican restaurant");
