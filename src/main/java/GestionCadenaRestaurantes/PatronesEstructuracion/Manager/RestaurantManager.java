@@ -21,4 +21,20 @@ public class RestaurantManager {
         return instance;
     }
 
+    public void addRestaurant(Restaurant restaurant) {
+        restaurants.add(restaurant);
+    }
+
+    public void prepareAllTables() {
+        for (Restaurant restaurant : restaurants) {
+            restaurant.prepareTables();
+        }
+    }
+
+    public void serveAllFood() {
+        for (Restaurant restaurant : restaurants) {
+            restaurant.serveFood();
+        }
+    }
+
 }
