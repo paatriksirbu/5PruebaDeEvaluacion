@@ -1,4 +1,4 @@
-package GestionCadenaRestaurantes.PatronesEstructuracion;
+package GestionCadenaRestaurantes.PatronesEstructuracion.Interface;
 
 public interface Restaurant {
     void prepareTables();

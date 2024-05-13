@@ -1,6 +1,6 @@
 package GestionCadenaRestaurantes.PatronesEstructuracion.Factory;
 import GestionCadenaRestaurantes.PatronesEstructuracion.RestaurantTypes.*;
-import GestionCadenaRestaurantes.PatronesEstructuracion.Restaurant;
+import GestionCadenaRestaurantes.PatronesEstructuracion.Interface.Restaurant;
 
 public class RestaurantFactory {
     public static Restaurant getRestaurant(String type) {

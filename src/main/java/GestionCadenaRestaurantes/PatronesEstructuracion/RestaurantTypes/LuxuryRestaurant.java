@@ -1,6 +1,6 @@
 package GestionCadenaRestaurantes.PatronesEstructuracion.RestaurantTypes;
 
-import GestionCadenaRestaurantes.PatronesEstructuracion.Restaurant;
+import GestionCadenaRestaurantes.PatronesEstructuracion.Interface.Restaurant;
 
 public class LuxuryRestaurant implements Restaurant {
     @Override
