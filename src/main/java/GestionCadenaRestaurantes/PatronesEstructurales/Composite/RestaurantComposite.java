@@ -1,4 +1,4 @@
-package GestionCadenaRestaurantes.PatronesEstructurales;
+package GestionCadenaRestaurantes.PatronesEstructurales.Composite;
 
 import GestionCadenaRestaurantes.PatronesEstructurales.Interface.RestaurantComponent;
 
